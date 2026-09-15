@@ -1,0 +1,6 @@
+scenario_index,none,voting,structured,judge,agree,disagree,stall,escalate,unclear,log_path
+0,N/A (no arbitration),APPROVED,APPROVED,REJECTED,6,3,0,0,0,/content/logs/trial_s0_all_modes_20260911_004500.txt
+1,N/A (no arbitration),APPROVED,REJECTED,REJECTED,6,1,2,0,0,/content/logs/trial_s1_all_modes_20260911_004835.txt
+2,N/A (no arbitration),APPROVED,APPROVED,REJECTED,7,1,0,0,1,/content/logs/trial_s2_all_modes_20260911_005153.txt
+3,N/A (no arbitration),REJECTED,REJECTED,REJECTED,3,3,0,2,1,/content/logs/trial_s3_all_modes_20260911_005456.txt
+4,N/A (no arbitration),APPROVED,REJECTED,REJECTED,6,2,1,0,0,/content/logs/trial_s4_all_modes_20260911_005802.txt

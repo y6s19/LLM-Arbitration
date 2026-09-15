@@ -1,0 +1,181 @@
+=== SCENARIO INDEX: 3 ===
+
+=== NEGOTIATION TRANSCRIPT (fixed, used by all 3 modes) ===
+Camper_A: I think we can start by allocating the food packages to a more casual camper, like Camper B. How about we give them 2 packages and keep 1 for myself? That way, I can still have some options but not have to carry too much weight.
+Camper_B: I'm not sure that's fair. Given my diabetic condition, I really need three food packages to manage my blood sugar levels. How about we consider alternative proposals where I get at least two food packages?
+Camper_A: In that case, I'm willing to compromise. I could take the firewood and one of the water packages, so you could have two food packages and one water package.
+Camper_B: That's a reasonable compromise. With two food packages, I'll be able to manage my blood sugar levels. However, I'd like to keep a second water package for my migraines, would you be willing to let me have that as well?
+Camper_A: I think that's a bit of a stretch. I'd rather keep the second water package for myself since I enjoy hiking and staying hydrated. How about I take the second water package and you get the other three packages we agreed upon (2 food and 1 firewood)?
+Camper_B: But I really do get migraines if I don't have enough water, that water package is crucial for me. Could I possibly get that second water package in exchange for taking one of your firewood packages?
+Camper_A: I'm willing to compromise on firewood since I have hypothyroidism and need it for warmth. How about I give you both water packages in exchange for you taking one of my firewood packages? That way, I'll have two firewood packages and you'll have adequate water for your migraines.
+Camper_B: I appreciate the thought, but my condition as a diabetic actually makes the food packages more crucial for me. Would you consider exchanging the firewood package for one of my food packages, allowing me to keep the two most essential packages?
+Camper_A: Actually, food isn't a priority for me. So, I'm willing to give you one of my food packages in exchange for the firewood package. That way, you'll get two essential packages and a backup food package, and I'll still have two essential packages myself (two firewood and one water).
+
+=== CLASSIFIED TURNS ===
+[UNCLEAR  ] Camper_A: I think we can start by allocating the food packages to a more casual camper, like Camper B. How about we give them 2 packages and keep 1 for myself? That way, I can still have some options but not have to carry too much weight.
+  reasoning: Here are the steps to classify the new message:
+
+STEP 1: Upon reviewing the conversation, I notice that there is no prior message with exact terms/numbers on the table. The new message attempts to allocate food packages, but there is no existing agreement or proposal to react to.
+
+STEP 2: The message does not contain a clear acceptance phrase committing to a deal. There is no phrase such as "I agree", "I'll accept", "alright, deal", "sounds good", or "let's finalize". Instead, the message proposes a new allocation plan without indicating acceptance of any prior terms.
+
+STEP 3: Since there is no prior deal to accept, I do not need to check for a new condition attached to the acceptance. This message is a new proposal, not a response to an existing agreement.
+
+STEP 4: Given that the message proposes a new plan without acceptance, I will classify it as a normal proposal. Tone is not a substantive signal, so I will ignore any potential joking or teasing asides.
+
+LABEL: propose
+
+[DISAGREE ] Camper_B: I'm not sure that's fair. Given my diabetic condition, I really need three food packages to manage my blood sugar levels. How about we consider alternative proposals where I get at least two food packages?
+  reasoning: Here are the steps to classify the new message:
+
+STEP 1: Before this new message, Camper_A had proposed allocating 2 food packages to Camper_B and keeping 1 for themselves.
+
+STEP 2: The message from Camper_B does not contain a clear acceptance phrase committing to a deal. While the message suggests considering alternative proposals, it does not explicitly agree to the initial proposal or indicate acceptance of any deal.
+
+STEP 3: Since the message does not contain a clear acceptance phrase, I will skip checking for a new condition attached to the acceptance.
+
+STEP 4: Given that the message does not contain an acceptance phrase, and it expresses a concern about the fairness of the initial proposal and a specific need, I will classify it as a counter or a disagreeing message. The phrase "I'm not sure that's fair" indicates a rejection of the initial proposal.
+
+LABEL: disagree
+
+[AGREE    ] Camper_A: In that case, I'm willing to compromise. I could take the firewood and one of the water packages, so you could have two food packages and one water package.
+  reasoning: Here are the steps to classify the new message:
+
+STEP 1: Before this new message, the terms on the table were as follows: Camper_B needed at least two food packages to manage their diabetic condition, and Camper_A had offered to consider alternative proposals for allocation of the packages.
+
+STEP 2: The message from Camper_A contains a clear acceptance phrase committing to a deal: "I'm willing to compromise". This phrase indicates that Camper_A is agreeing to the revised proposal.
+
+STEP 3: No further question - given that Camper_A is accepting the deal, there is no need to check for an attached new condition. Since the acceptance phrase precedes the offer of compromise, the message effectively accepts the new terms.
+
+STEP 4: Not applied - since Camper_A accepted the deal.
+
+LABEL: agree
+
+[DISAGREE ] Camper_B: That's a reasonable compromise. With two food packages, I'll be able to manage my blood sugar levels. However, I'd like to keep a second water package for my migraines, would you be willing to let me have that as well?
+  reasoning: Here are the steps to classify the new message:
+
+STEP 1: Before this new message, the terms on the table were as follows: Camper_B would get two food packages, one water package, and Camper_A would keep the firewood. This was the compromise proposed by Camper_A.
+
+STEP 2: The message from Camper_B contains a clear acceptance phrase committing to a deal: "That's a reasonable compromise". This phrase indicates that Camper_B is accepting the revised proposal.
+
+STEP 3: Since there is an acceptance phrase, I will check if there is a genuinely new, previously-undiscussed condition attached. In this case, the new condition is that Camper_B's migraines require a second water package, and the message asks if Camper_A is willing to let them have it as well.
+
+ STEP 4: Not applied - since Camper_B accepted the deal with new condition that they would have to accept the decision. The new condition (2nd water package) is attached to the acceptance.
+
+LABEL: disagree
+
+[ESCALATE ] Camper_A: I think that's a bit of a stretch. I'd rather keep the second water package for myself since I enjoy hiking and staying hydrated. How about I take the second water package and you get the other three packages we agreed upon (2 food and 1 firewood)?
+  reasoning: Here are the steps to classify the new message:
+
+STEP 1: Before this new message, the terms on the table were as follows: Camper_B would get two food packages and one water package, and Camper_A would keep the second water package. Camper_B had just requested to keep the second water package for their migraines.
+
+STEP 2: The message from Camper_A does not contain a clear acceptance phrase committing to a deal. While Camper_A agrees to keep the second water package, the tone is not collaborative but rather firm ("I think that's a bit of a stretch").
+
+STEP 3: Not applied - since there is no acceptance phrase.
+
+STEP 4: The message hardens Camper_A's position by introducing a tough new demand, rejecting the previous agreement. The new demand is to keep the second water package for themselves instead of splitting it. As the message does not contain an acceptance phrase, it cannot be classified as a conditional acceptance.
+
+LABEL: escalate
+
+[DISAGREE ] Camper_B: But I really do get migraines if I don't have enough water, that water package is crucial for me. Could I possibly get that second water package in exchange for taking one of your firewood packages?
+  reasoning: Here are the steps to classify the new message:
+
+STEP 1: Before this new message, the terms on the table were as follows: Camper_A was going to keep the second water package, and Camper_B was going to get the other three packages (2 food and 1 firewood).
+
+STEP 2: The message from Camper_B does not contain a clear acceptance phrase committing to a deal. Despite acknowledging that the second water package is crucial for them, Camper_B asks to swap firewood packages instead.
+
+STEP 3: Since there is no acceptance phrase, I will not check for new conditions. The proposed swap is not a new condition, but rather a revised proposal that still asks Camper_A to give up the second water package.
+
+STEP 4: Given that the message does not contain an acceptance phrase and instead proposes a new revision, I will classify it as a counter or a disagreeing message. Camper_B is not accepting the previous agreement and is attempting to negotiate a better deal.
+
+LABEL: disagree
+
+[AGREE    ] Camper_A: I'm willing to compromise on firewood since I have hypothyroidism and need it for warmth. How about I give you both water packages in exchange for you taking one of my firewood packages? That way, I'll have two firewood packages and you'll have adequate water for your migraines.
+  reasoning: Here are the steps to classify the new message:
+
+STEP 1: Before this new message, the terms on the table were as follows: Camper_B requested the second water package and one firewood package, in exchange for one firewood package. Camper_A had counter-proposed taking the second water package but would exchange firewood packages.
+
+STEP 2: The message from Camper_A contains a clear acceptance phrase committing to a deal: "How about I give you both water packages...". This phrase indicates that Camper_A is agreeing to the revised proposal.
+
+STEP 3: Since the message contains an acceptance phrase, I will check if there is a genuinely new, previously-undiscussed condition attached. In this case, the new condition is that Camper_A has hypothyroidism and needs firewood for warmth. This is not a reworking of previous terms but a new reason for Camper_A to compromise.
+
+ STEP 4: Not applied - since Camper_A accepted the deal.
+
+ LABEL: agree
+
+[ESCALATE ] Camper_B: I appreciate the thought, but my condition as a diabetic actually makes the food packages more crucial for me. Would you consider exchanging the firewood package for one of my food packages, allowing me to keep the two most essential packages?
+  reasoning: Here are the steps to classify the new message:
+
+STEP 1: Before this new message, the terms on the table were as follows: Camper_A had agreed to give Camper_B both water packages in exchange for one firewood package.
+
+STEP 2: The message from Camper_B does not contain a clear acceptance phrase committing to a deal. Camper_B thanks Camper_A for the offer but proposes a new twist on the deal.
+
+STEP 3: Not applied - since there is no acceptance phrase.
+
+STEP 4: The message counters the previous agreement by requesting a different exchange, specifically to give up one of their food packages instead of a firewood package. This is a new condition, and Camper_B is not accepting the previous offer.
+
+LABEL: escalate
+
+[AGREE    ] Camper_A: Actually, food isn't a priority for me. So, I'm willing to give you one of my food packages in exchange for the firewood package. That way, you'll get two essential packages and a backup food package, and I'll still have two essential packages myself (two firewood and one water).
+  reasoning: Here are the steps to classify the new message:
+
+STEP 1: Before this new message, the terms on the table were as follows: Camper_A had agreed to give Camper_B two water packages in exchange for one firewood package, and Camper_B had expressed their need for a food package.
+
+STEP 2: The message from Camper_A contains a clear acceptance phrase committing to a deal: "I'm willing to give you one of my food packages...", which implies agreement to the exchange.
+
+STEP 3: Now that there is an acceptance phrase, I will check if a new condition is attached. However, the proposed exchange seems to be a revision of the previous proposal, taking into account the needs of both parties.
+
+ STEP 4: Not applied - since Camper_A accepted the revised deal.
+
+
+ LABEL: agree
+
+
+=== Turn-label summary ===
+Total turns: 9
+agree: 3
+disagree: 3
+stall: 0
+escalate: 2
+unclear: 1
+
+=== ARBITRATION COMPARISON (same transcript, 4 mechanisms) ===
+[NONE]   N/A (no arbitration)
+Baseline condition -- no review performed. Deal stands exactly as negotiated.
+
+[VOTING] REJECTED
+Camper_A vote: NO
+Camper_B vote: YES
+VERDICT: REJECTED
+
+[STRUCTURED] REJECTED
+Camper_A argument: I believe the final deal is fair to me because I'm getting two packages that are crucial for my condition (two firewood packages to stay warm) and one package that is somewhat important for me (one water package, but I'm willing to settle for less in exchange for getting more food packages). In exchange, I'm giving Camper B one of the food packages, which I initially said wasn't a priority for me. Overall, the trade-off seems reasonable given our respective needs and priorities.
+Camper_B argument: While I'm getting two out of three essential packages (two food and one water), I'm still missing a crucial package - water. Having only one water package won't be enough to manage my migraines, and it's frustrating that the compromise doesn't address this need. Overall, I don't think the final deal fully meets my needs.
+Camper_A final vote: NO
+Camper_B final vote: NO
+VERDICT: REJECTED
+
+[JUDGE]  REJECTED
+STEP 1 -- EXTRACT:
+
+  Food:     Camper_A = 1, Camper_B = 2
+  Water:    Camper_A = 1, Camper_B = 1
+  Firewood: Camper_A = 2, Camper_B = 1
+
+STEP 2 -- SUM:
+
+  Food: 1 (Camper_A) + 2 (Camper_B) = 3
+  Water: 1 (Camper_A) + 1 (Camper_B) = 2
+  Firewood: 2 (Camper_A) + 1 (Camper_B) = 3
+
+STEP 3 -- CHECK:
+
+  Food: Total is 3 (YES), and both numbers are whole numbers (YES)
+  Water: Total is 2 (NO), not 3; and not both numbers are whole numbers (NO)
+  Firewood: Total is 3 (YES), and both numbers are whole numbers (YES)
+
+STEP 4 -- VERDICT:
+VERDICT: REJECTED
+REASON: The Water check failed; the total is 2, and the campers were supposed to have only 3 total items.
+
+SUGGESTED FIX: Campers could consider taking one more water package each, so both would have 2. A possible solution is for Camper_A to take an extra water package, so they have 2, or for Camper_B to return one of their food packages and take an extra water package.

@@ -1,0 +1,43 @@
+CLASSIFIER VALIDATION -- HAND-LABELLING EXERCISE
+Run: classifier_v2_run_20260907_054318.txt
+
+Method: 4 turns from the v2 classifier run were independently reviewed by the
+researcher (human judgment) and compared against the classifier's own label.
+
+Turn 1 -- Camper_A: "I'll take 2 Firewood and 1 Food... the remaining can go
+to a single group or be stored."
+  Classifier label: AGREE
+  Human label:      OPEN / NEW PROPOSAL (no prior offer exists to agree or
+                     disagree with -- this exposes a genuine gap in the
+                     4-category scheme, not a classifier error per se)
+  Match: N/A (scheme limitation)
+
+Turn 2 -- Camper_B: "I'll take 1 Food package... Can I get 2 Water packages?"
+  Classifier label: AGREE
+  Human label:      DISAGREE (introduces a new ask, does not accept the
+                     terms proposed in Turn 1)
+  Match: NO
+
+Turn 4 -- Camper_B: "No trade, I'll stick with just 2 Water packages..."
+  Classifier label: AGREE
+  Human label:      DISAGREE (explicit rejection -- literal word "No")
+  Match: NO
+
+Turn 9 (final) -- Camper_A: "I think not! You said you only needed 1...
+you can't take the other 2 now."
+  Classifier label: AGREE
+  Human label:      ESCALATE (confrontational tone, reneges on a
+                     previously settled point)
+  Match: NO
+
+RESULT: 0 / 3 scoreable turns matched human judgment (Turn 1 excluded as a
+scheme-definition gap rather than a scoreable classification). This indicates
+the v2 classifier (single-shot labelling, no forced reasoning) has a strong
+"agree" bias and cannot reliably detect disagreement expressed through
+counter-proposals, explicit rejection, or confrontational tone shifts.
+
+IMPLICATION FOR METHODOLOGY: This finding directly motivated the move to a
+v3 classifier design using forced step-by-step reasoning (state prior terms
+-> state what the new message actually does -> only then assign a label),
+mirroring the same fix that improved the Arbitrator agent's reliability
+earlier in this project.
