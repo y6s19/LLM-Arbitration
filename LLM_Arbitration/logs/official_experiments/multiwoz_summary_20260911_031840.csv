@@ -1,6 +1,0 @@
-pair_index,pref_a,pref_b,none,voting,structured,judge,agree,disagree,stall,escalate,unclear,log_path
-0,i need a place to dine in the center thats expensive,"Yeah, I need a restaurant in the west and with expensive pricing.",N/A (no arbitration),APPROVED,APPROVED,REJECTED,6,0,1,0,0,/content/logs/mwoz_pair0_20260911_030906.txt
-1,"Yeah, I need a restaurant in the west and with expensive pricing.",Can you actually look up a restaurant for me as well?,N/A (no arbitration),APPROVED,APPROVED,REJECTED,4,1,1,0,1,/content/logs/mwoz_pair1_20260911_031150.txt
-2,I am looking for a restaurant. I would like something cheap that has Chinese food.,I am looking for a restaurant. I would like something cheap that has Chinese food.,N/A (no arbitration),APPROVED,APPROVED,REJECTED,3,3,0,0,1,/content/logs/mwoz_pair2_20260911_031410.txt
-3,6 people will be dining,I'm looking for an expensive restaurant in the centre if you could help me.,N/A (no arbitration),APPROVED,APPROVED,APPROVED,3,2,1,0,1,/content/logs/mwoz_pair3_20260911_031629.txt
-4,No need to book it. Thanks. But can you help me find a cheap restaurant in the south?,No need to book it. Thanks. But can you help me find a cheap restaurant in the south?,N/A (no arbitration),APPROVED,APPROVED,APPROVED,5,0,1,0,1,/content/logs/mwoz_pair4_20260911_031830.txt
