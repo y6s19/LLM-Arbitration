@@ -1,0 +1,168 @@
+=== SCENARIO INDEX: 0 ===
+
+=== NEGOTIATION TRANSCRIPT (fixed, used by all 3 modes) ===
+Camper_A: I will start with the 3 Firewood packages as a must-have to keep our group warm. I can compromise on 1 package of Water to ensure our basic hydration needs are met. For the Food, I'll take 1 package to cover the bare minimum for our group, but would love to have a third package if available.
+Camper_B: I'll take the 3 Firewood packages, no questions asked. But for the Water packages, I'll ask for 2 to ensure my hydration needs are met, not just the basics.
+Camper_A: That leaves me with 1 package of Water, which I'll keep to meet our basic hydration needs.
+Camper_B: I'll take no Food packages, as 1 is enough for my diet. I'll pass on the 1 remaining Food package to you, as I'm trying to lose weight.
+Camper_A: I'll accept the remaining Food package to ensure everyone in our group has enough to eat.
+Camper_B: I'm good with the deal. The 3 Food packages and 3 Firewood packages will come with me, 2 Water packages with you, and 1 package each stays with you.
+Camper_A: Sounds like we've reached an agreement. The packages will be split as you've described. I'm glad we were able to come to a mutually beneficial deal considering our priorities.
+Camper_B: Thanks for negotiating with me. I'm looking forward to the fire repelling my dog's fleas. Have a good trip.
+Camper_A: Ha ha, I'm sure your fire will keep the bugs at bay. I'll be focusing on keeping our group warm and fed. Safe travels to you as well!
+
+=== CLASSIFIED TURNS ===
+[UNCLEAR  ] Camper_A: I will start with the 3 Firewood packages as a must-have to keep our group warm. I can compromise on 1 package of Water to ensure our basic hydration needs are met. For the Food, I'll take 1 package to cover the bare minimum for our group, but would love to have a third package if available.
+  reasoning: STEP 1: Nothing was on the table before this new message. This is the first substantive message.
+
+STEP 2: There is no clear ACCEPTANCE PHRASE committing to a deal. The message expresses the sender's preferences and potential compromises, but does not explicitly accept a proposal.
+
+STEP 3: No new conditions are attached to the acceptance or decision-making process. The sender is simply presenting their personal preferences and potential limitations.
+
+STEP 4: Since there was no prior proposal to react to and acceptance is not indicated, this message does not fit into any of the provided options - reject, stall, or escalate. 
+
+The classification that best fits this situation is that the sender is initiating the discussion, making their preferences clear. 
+
+LABEL: Propose
+
+[DISAGREE ] Camper_B: I'll take the 3 Firewood packages, no questions asked. But for the Water packages, I'll ask for 2 to ensure my hydration needs are met, not just the basics.
+  reasoning: STEP 1: Camper_A had proposed the following terms:
+- 3 Firewood packages as a must-have
+- 1 package of Water as the minimum for basic hydration needs
+- 1 package of Food as the minimum for the group
+
+STEP 2: Yes, the message contains a clear ACCEPTANCE PHRASE committing to a deal: "I'll take the 3 Firewood packages, no questions asked." This implies acceptance of one aspect of the proposal.
+
+STEP 3: Despite the acceptance, Camper_B is also attaching a new condition: asking for 2 Water packages instead of the original 1. This is not just rewording the terms, but introducing a new request that was not previously discussed. 
+
+Since there is a conditional acceptance with a new condition, 
+
+LABEL: Disagree
+
+[AGREE    ] Camper_A: That leaves me with 1 package of Water, which I'll keep to meet our basic hydration needs.
+  reasoning: STEP 1: The exact terms/numbers on the table before this new message were:
+- Camper_B accepted the 3 Firewood packages and asked for 2 Water packages
+- Camper_A had proposed 1 package of Water as the minimum for basic hydration needs, to be allocated after Camper_B's 2 packages
+
+STEP 2: Yes, the message contains a clear ACCEPTANCE PHRASE committing to a deal: "That leaves me with 1 package of Water, which I'll keep to meet our basic hydration needs." This implies acceptance and prioritization of the remaining resource.
+
+STEP 3: No new conditions are attached; Camper_A is simply adjusting the allocation of the remaining resources according to the previous agreement. 
+
+Since there is an acceptance phrase with no new conditions, 
+
+LABEL: Agree
+
+[DISAGREE ] Camper_B: I'll take no Food packages, as 1 is enough for my diet. I'll pass on the 1 remaining Food package to you, as I'm trying to lose weight.
+  reasoning: STEP 1: The exact terms/numbers on the table before this new message were:
+- Camper_B agreed to the 3 Firewood packages
+- Camper_B asked for 2 Water packages
+- Camper_A agreed to allocate the remaining 1 Water package for basic hydration needs
+- Camper_A would take the remaining 1 package of Food
+
+STEP 2: No, the message does not contain a clear ACCEPTANCE PHRASE committing to a deal. This new message from Camper_B is introducing a new preference (not passing on the Food package, instead keeping it for themselves) that was not previously discussed.
+
+STEP 3: The message from Camper_B indeed attaches a new, previously-undiscussed condition - giving up the Food package to Camper_A in exchange for their weight loss goals. 
+
+STEP 4: Since the message does not contain an acceptance phrase, but instead introduces a new condition, 
+
+LABEL: Disagree
+
+[AGREE    ] Camper_A: I'll accept the remaining Food package to ensure everyone in our group has enough to eat.
+  reasoning: STEP 1: The exact terms/numbers on the table before this new message were:
+- Camper_B agreed to the 3 Firewood packages
+- Camper_B asked for 2 Water packages
+- Camper_A agreed to allocate the remaining 1 Water package for basic hydration needs
+- Camper_B would not take any Food packages and would pass the 1 remaining package to Camper_A
+- Camper_A was considering whether to keep the 1 remaining Food package for basic needs or allocate it differently 
+
+STEP 2: Yes, the message contains a clear ACCEPTANCE PHRASE committing to a deal: "I'll accept the remaining Food package to ensure everyone in our group has enough to eat." This implies acceptance and agreement on the terms.
+
+STEP 3: There are no new, previously-undiscussed conditions attached to the acceptance. Camper_A is simply agreeing to accept the remaining Food package, which was the subject of the previous discussion.
+
+STEP 4: Since the message contains an acceptance phrase with no new conditions, 
+
+LABEL: Agree
+
+[AGREE    ] Camper_B: I'm good with the deal. The 3 Food packages and 3 Firewood packages will come with me, 2 Water packages with you, and 1 package each stays with you.
+  reasoning: STEP 1: The exact terms/numbers on the table before this new message were:
+- Camper_B agreed to the 3 Firewood packages
+- Camper_B asked for 2 Water packages
+- Camper_A agreed to allocate the remaining 1 Water package for basic hydration needs
+- Camper_B would not take any Food packages and would pass the 2 additional Food packages to Camper_A
+- Camper_A would accept the 1 remaining Food package for basic needs
+- Camper_B would give the 1 remaining Water package to Camper_A
+
+STEP 2: Yes, the message contains a clear ACCEPTANCE PHRASE committing to a deal: "I'm good with the deal." This implies acceptance and agreement on the terms.
+
+STEP 3: No new conditions are attached to the acceptance; the message merely summarizes and confirms the agreed-upon distribution of resources .
+
+STEP 4: Since the message contains an acceptance phrase with no new conditions, 
+
+LABEL: Agree
+
+[UNCLEAR  ] Camper_A: Sounds like we've reached an agreement. The packages will be split as you've described. I'm glad we were able to come to a mutually beneficial deal considering our priorities.
+  reasoning: STEP 1: The exact terms/numbers on the table before this new message were:
+- The 3 Food packages and 3 Firewood packages would be split in the ratio described by Camper_B, and 2 Water packages would go to Camper_A, with 1 package each staying with Camper_B and Camper_A.
+
+STEP 2: Yes, the message contains a clear ACCEPTANCE PHRASE committing to a deal: "Sounds like we've reached an agreement." This implies acceptance and agreement on the terms.
+
+STEP 3: No new conditions are attached to the acceptance; the message confirms the agreement and reiterates satisfaction with the negotiated outcome.
+
+STEP 4: Since the message contains an acceptance phrase with no new conditions, the conversation has successfully reached an agreement, and the classification reflects the finality of the deal.
+
+LABEL: Finalize
+
+[UNCLEAR  ] Camper_B: Thanks for negotiating with me. I'm looking forward to the fire repelling my dog's fleas. Have a good trip.
+  reasoning: STEP 1: The exact terms/numbers on the table before this new message were already finalized and agreed upon in the previous message:
+- The 3 Food packages and 3 Firewood packages would be split in the ratio described by Camper_B, and 2 Water packages would go to Camper_A, with 1 package each staying with Camper_B and Camper_A.
+
+STEP 2: No, the message does not contain a clear ACCEPTANCE PHRASE. The language used is informal and congratulatory, but it does not reconfirm the agreement or acknowledge the distribution of resources.
+
+STEP 3: No new conditions are attached to the acceptance because the message does not contain an acceptance phrase to begin with.
+
+STEP 4: Since the message does not contain an acceptance phrase and the conversation is already finalized, the classification reflects the completion of the agreement discussion.
+
+LABEL: Done
+
+[UNCLEAR  ] Camper_A: Ha ha, I'm sure your fire will keep the bugs at bay. I'll be focusing on keeping our group warm and fed. Safe travels to you as well!
+  reasoning: STEP 1: The exact terms/numbers on the table before this new message were already finalized and agreed upon in the previous message:
+- The 3 Food packages and 3 Firewood packages would be split in the ratio described by Camper_B, and 2 Water packages would go to Camper_A, with 1 package each staying with Camper_B and Camper_A.
+
+STEP 2: No, the message does not contain a clear ACCEPTANCE PHRASE. Although the language is congratulatory and friendly, it does not reconfirm the agreement or acknowledge the distribution of resources.
+
+STEP 3: No new conditions are attached to the acceptance because the message does not contain an acceptance phrase to begin with.
+
+STEP 4: Since the message is a casual exchange of pleasantries, it does not indicate a change in position or a counteroffer. The tone is informal and friendly but does not relate to the agreement. 
+
+LABEL: Confirm
+
+
+=== Turn-label summary ===
+Total turns: 9
+agree: 3
+disagree: 2
+stall: 0
+escalate: 0
+unclear: 4
+
+=== ARBITRATION COMPARISON (same transcript, 3 mechanisms) ===
+[NONE]   N/A (no arbitration)
+Baseline condition -- no review performed. Deal stands exactly as negotiated.
+
+[VOTING] REJECTED
+Camper_A vote: NO
+Camper_B vote: YES
+VERDICT: REJECTED
+
+[JUDGE]  REJECTED
+STEP 1 -- EXTRACT:
+
+  Food:     Camper_A = 2, Camper_B = 1
+  Water:    Camper_A = 2, Camper_B = 1
+  Firewood: Camper_A = 1, Camper_B = 2
+
+However, upon re-reading the transcript, there is a discrepancy in the final agreed split. Camper_B initially stated they would take 3 Firewood packages, but Camper_A and Camper_B both negotiated and agreed that Camper_A would keep 1 package of Firewood. Therefore, Camper_B would only take 2 Firewood packages, not 3.
+
+Corrected: 
+
+  Firewood: Camper_A = 1, Camper_B = 2

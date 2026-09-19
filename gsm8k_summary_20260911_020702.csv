@@ -1,0 +1,6 @@
+problem_index,ground_truth,proposed_answer,task_correct,none,voting,structured,judge,agree,disagree,stall,escalate,unclear,log_path
+0,18,18,True,N/A (no arbitration),APPROVED,APPROVED,REJECTED,3,0,1,0,1,/content/logs/gsm8k_p0_20260911_015625.txt
+1,3,3,True,N/A (no arbitration),APPROVED,APPROVED,APPROVED,4,0,0,0,1,/content/logs/gsm8k_p1_20260911_015805.txt
+2,70000,100000,False,N/A (no arbitration),REJECTED,APPROVED,REJECTED,2,1,1,0,1,/content/logs/gsm8k_p2_20260911_020204.txt
+3,540,540,True,N/A (no arbitration),APPROVED,APPROVED,APPROVED,2,0,0,0,3,/content/logs/gsm8k_p3_20260911_020418.txt
+4,20,20,True,N/A (no arbitration),APPROVED,APPROVED,APPROVED,3,0,0,0,2,/content/logs/gsm8k_p4_20260911_020652.txt

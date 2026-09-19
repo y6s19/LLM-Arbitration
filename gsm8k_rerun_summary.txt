@@ -1,0 +1,62 @@
+=== GSM8K REPRODUCIBILITY RE-RUN SUMMARY ===
+Run date: 2026-09-11 (second independent batch)
+
+Task accuracy: 3/5 correct (60%) [vs 4/5 (80%) in original run]
+Voting:     4/5 approved (80%) [same as original]
+Structured: 4/5 approved (80%) [vs 100% in original]
+Judge:      2/5 approved (40%) [vs 60% in original]
+
+=== PROBLEM 0 (Janet's eggs) ===
+Ground truth: 18 | Proposed: 18 | Correct: True
+All 4 mechanisms: APPROVED (unanimous, correct answer, no issues)
+
+=== PROBLEM 1 (Robe fiber bolts) ===
+Ground truth: 3 | Proposed: 3 | Correct: True
+Voting: APPROVED | Structured: APPROVED | Judge: REJECTED (but Judge's own
+independent calculation also arrived at 3 -- Judge's final verdict line
+was malformed/missing the explicit "VERDICT: APPROVED" string despite
+correct reasoning, illustrating a parsing/format-compliance risk distinct
+from a reasoning error)
+
+=== PROBLEM 2 (Josh house flipping) -- KEY REPRODUCIBILITY FINDING ===
+Ground truth: 70000
+Run 1 (original): Solvers proposed 100000 (wrong). Judge calculated 25000
+  (also wrong) and rejected.
+Run 2 (this re-run): Solvers proposed 50000 (wrong, different mistake).
+  Judge calculated 25000 AGAIN (identical wrong answer) and rejected.
+FINDING: The Judge made the exact same arithmetic error twice, independently,
+on two different negotiation transcripts. This indicates a systematic,
+reproducible misunderstanding of "increased value by 150%" framing in this
+specific problem type, not random noise. The Judge appears to compute 150%
+of the repair cost ($50,000 x 1.5 = $75,000) rather than 150% of the
+original purchase price, in both runs.
+
+=== PROBLEM 3 (James's sprints) -- COUNTER-EXAMPLE TO MAIN FINDING ===
+Ground truth: 540 | Proposed: 540 | Correct: True
+BUT: after solving correctly, Solver_A introduced a completely unrelated
+NEW problem (Tom's bookshelf) mid-conversation. The transcript ends
+mid-negotiation on this new, unrelated problem.
+Voting: REJECTED (Solver_B voted NO)
+Structured: REJECTED -- both solvers explicitly noted "540 doesn't relate
+  to the bookshelf question" in their arguments
+Judge: APPROVED -- despite visible self-confusion in its reasoning
+  ("Wait, the problem stated..."), it re-derived 540 through the ORIGINAL
+  sprints problem and approved, without noticing the conversation had
+  drifted to an unrelated new question.
+FINDING: This is a genuine counter-example to the "Judge is more reliable"
+pattern. Voting and Structured caught a real coordination failure (topic
+drift / off-task drift) that the Judge's purely arithmetic-focused check
+missed entirely. This shows the Judge's strength is specifically numeric
+consistency verification, not general conversational coherence checking.
+
+=== PROBLEM 4 (Wendi's chicken feed) ===
+Ground truth: 20 | Proposed: 21 | Correct: False
+Both solvers made the same arithmetic error (dividing chickens into meal
+groups instead of directly using per-meal cup totals) and confirmed each
+other's wrong answer.
+Voting: APPROVED (incorrectly) | Structured: APPROVED (incorrectly)
+Judge: REJECTED correctly, calculating its own answer as 180 (also
+incorrect, but correctly identified the proposed 21 as inconsistent with
+its own working, thereby REJECTING a wrong deal for the right reason:
+it caught a real error even though its own replacement answer was also
+wrong)

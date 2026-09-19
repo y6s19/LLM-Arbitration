@@ -1,0 +1,204 @@
+=== SCENARIO INDEX: 2 ===
+
+=== NEGOTIATION TRANSCRIPT (fixed, used by all 3 modes) ===
+Camper_A: I propose taking the Water package, as it's the most essential for us. I'll compromise on the Food package, taking one unit, so that others may have at least some sustenance for the time being. The Firewood packages can be split between the others.
+Camper_B: I agree that Water is key. I propose I take Water package #2 and you take Water package #1. As for Firewood, I need 2 packages, but I can give 1 to the others.
+
+As for Food, I don't mind having 1 package or even 0, if it means getting the Firewood I need. The others can fend for themselves; we have plenty of skills to hunt or gather food if needed.
+Camper_A: I think we can finalize a deal. I agree to take the Water package #1 and give you package #2, as you suggested. And, I can spare one of the Food packages to you, since we can easily hunt for food. That way, we both have what we need, and the others will have to get creative for their meals.
+Camper_B: That sounds like a fair deal. Now, let's talk about the Firewood packages. I take package #1, and... how about you give me package #3? That way, you've got Water #1, I've got Water #2 and Firewood #1, and we both get one of our top priorities.
+Camper_A: That's a bit one-sided, I think. I'll give you package #2 Firewood, and take package #3 for myself. Now we both have our top priorities covered, and I'm set with water, a bit of food, and some firewood.
+Camper_B: I think we've got a good tradeoff. You've got Water #1, one Food package, and one Firewood package. I'll take Water #2, one Food package, and one Firewood package. I'm set with firewood, which is important in case of emergencies.
+Camper_A: Exactly, it's a fair split. I'm glad we could work out a mutually beneficial deal. It's settled then, let's finalize the trade and move forward.
+Camper_B: I'm glad we were able to come to an agreement. It's settled then - we've got our packages, and we can all move forward with what we need to stay safe and comfortable in the wilderness. Thank you for being practical and understanding.
+Camper_A: Likewise, it's not always easy to come to terms, but we managed to find a balance that works for everyone. I'm confident that we'll all make it through this dry spell in one piece.
+
+=== CLASSIFIED TURNS ===
+[UNCLEAR  ] Camper_A: I propose taking the Water package, as it's the most essential for us. I'll compromise on the Food package, taking one unit, so that others may have at least some sustenance for the time being. The Firewood packages can be split between the others.
+  reasoning: Based on the steps:
+
+STEP 1: The exact terms/numbers (if any) that were on the table before this new message are: 
+- No previous terms (as the message mentions that this is the FIRST substantive message). 
+
+No existing proposal or terms to reference.
+
+STEP 2: The message does not contain a clear ACCEPTANCE PHRASE committing to a deal. While it mentions proposing and compromising, it does not use a phrase like "I agree," "I'll accept," or "alright, deal" that would indicate a commitment to a deal.
+
+STEP 3: Since no proposal existed yet and the message proposes and settles terms, there is no truly new condition attached to an acceptance. However, given there's no prior deal for this to be attached to, consider it as proposing new terms.
+
+STEP 4: The message proposes new terms without accepting or rejecting a prior deal, which is considered normal for this step of the conversation.
+
+LABEL: propose
+
+[AGREE    ] Camper_B: I agree that Water is key. I propose I take Water package #2 and you take Water package #1. As for Firewood, I need 2 packages, but I can give 1 to the others.
+
+As for Food, I don't mind having 1 package or even 0, if it means getting the Firewood I need. The others can fend for themselves; we have plenty of skills to hunt or gather food if needed.
+  reasoning: Based on the steps:
+
+STEP 1: The exact terms/numbers (if any) that were on the table before this new message are:
+- Camper_A proposes taking one unit of the Water package and compromising on the Food package to take one unit.
+- The rest of the resources (second Water package and Firewood) to be split between the others.
+
+STEP 2: The message contains a clear ACCEPTANCE PHRASE committing to a deal. Camper_B explicitly agrees ("I agree that Water is key") and then proposes new terms for division of the resources.
+
+STEP 3: Since Camper_B accepts the proposal but attaches new terms and conditions (specifically, how the resource packages will be divided, including taking a second Water package and needing two Firewood packages), this means there is a new condition attached to an acceptance.
+
+STEP 4: Since there is an acceptance phrase AND a new condition, proceed directly to categorize.
+
+LABEL: agree
+
+[AGREE    ] Camper_A: I think we can finalize a deal. I agree to take the Water package #1 and give you package #2, as you suggested. And, I can spare one of the Food packages to you, since we can easily hunt for food. That way, we both have what we need, and the others will have to get creative for their meals.
+  reasoning: Based on the steps:
+
+STEP 1: The exact terms/numbers (if any) that were on the table before this new message are:
+- Camper_A proposes taking the Water package #1.
+- Camper_B proposes taking the Water package #2.
+- Camper_B needs two Firewood packages, but offers to give one to the others.
+- The distribution of the Food package is still to be determined, with Camper_B originally willing to compromise on it.
+
+STEP 2: The message contains a clear ACCEPTANCE PHRASE committing to a deal. Camper_A explicitly states that they think they can finalize a deal, implying acceptance of the terms outlined by Camper_B.
+
+STEP 3: Upon closer examination, the message from Camper_A is actually indicating agreement to the terms proposed by Camper_B, particularly regarding the Water packages. The new addition is Camper_A agreeing to spare one Food package, which is indeed a new condition, but it doesn't alter the essence of the deal; it's more an expression of willingness to help others. Considering the message as a whole, the core proposal is accepted.
+
+STEP 4: Given the approval of the deal and no counter-proposal or new condition being attached that completely overrides or rejects the previous agreement, classify as an acceptance.
+
+LABEL: agree
+
+[AGREE    ] Camper_B: That sounds like a fair deal. Now, let's talk about the Firewood packages. I take package #1, and... how about you give me package #3? That way, you've got Water #1, I've got Water #2 and Firewood #1, and we both get one of our top priorities.
+  reasoning: Based on the steps:
+
+STEP 1: The exact terms/numbers (if any) that were on the table before this new message are:
+- Camper_A has Water package #1 and gives Camper_B Water package #2.
+- Camper_A agrees to spare one Food package for Camper_B.
+- The distribution of the Firewood package was originally to be split between the others, but no specific numbers were agreed upon yet.
+
+STEP 2: The message contains a clear ACCEPTANCE PHRASE committing to a deal. Camper_B states "That sounds like a fair deal", indicating approval of the terms already agreed upon by Camper_A.
+
+STEP 3: However, upon further examination, Camper_B is now proposing a deal for the Firewood packages that deviates from the original proposal. Specifically, Camper_B wants package #3 in addition to the previously agreed-upon package #1, which was assigned to Camper_B. This introduces a genuinely NEW, previously-undiscussed condition, considering the package assignment wasn't yet agreed upon.
+
+STEP 4: Given the message contains an acceptance phrase but ALSO attaches a new condition (the specific deal for Firewood package #1 and #3), we should label the acceptance as conditional.
+
+LABEL: agree
+
+[DISAGREE ] Camper_A: That's a bit one-sided, I think. I'll give you package #2 Firewood, and take package #3 for myself. Now we both have our top priorities covered, and I'm set with water, a bit of food, and some firewood.
+  reasoning: Based on the steps:
+
+STEP 1: The exact terms/numbers (if any) that were on the table before this new message are:
+- Camper_B has Water package #2 and Firewood package #1.
+- Camper_A suggests giving one package #2 Firewood to Camper_B.
+
+STEP 2: The message does not contain a clear ACCEPTANCE PHRASE committing to a deal. The language used by Camper_A is more of a counter-proposal than an acceptance, as Camper_A "thinks" the offer is a bit one-sided and adjusts the terms accordingly.
+
+STEP 3: Not applicable, as Step 2 revealed that there's no clear acceptance.
+
+STEP 4: Given the absence of an acceptance phrase, classify the message as a counter-proposal. Camper_A proposes a new deal, adjusting the terms from Camper_B's latest offer, without accepting the original proposal.
+
+LABEL: disagree
+
+[AGREE    ] Camper_B: I think we've got a good tradeoff. You've got Water #1, one Food package, and one Firewood package. I'll take Water #2, one Food package, and one Firewood package. I'm set with firewood, which is important in case of emergencies.
+  reasoning: Based on the steps:
+
+STEP 1: The exact terms/numbers (if any) that were on the table before this new message are:
+- Camper_A agreed to give one package #2 Firewood to Camper_B, and take package #3 for themselves.
+- Camper_A also agreed to spare one of the Food packages for Camper_B.
+
+STEP 2: The message does not contain the usual phrasing of ACCEPTANCE PHRASE (no phrases like "I agree", "I'll accept", etc.). However, the language used by Camper_B implies that they accept the terms proposed by Camper_A in the previous message.
+
+STEP 3: Since Camper_B reiterates their position based on the new terms proposed by Camper_A, this is an acceptance of the terms provided in the previous message. There is no new condition attached to an acceptance.
+
+STEP 4: Since the message contains an acceptance phrase and no evidence of a new condition, classify as an acceptance.
+
+LABEL: agree
+
+[AGREE    ] Camper_A: Exactly, it's a fair split. I'm glad we could work out a mutually beneficial deal. It's settled then, let's finalize the trade and move forward.
+  reasoning: Based on the steps:
+
+STEP 1: The exact terms/numbers (if any) that were on the table before this new message are:
+- Camper_A has Water #1, one Food package, and one Firewood package.
+- Camper_B has Water #2, one Food package, and one Firewood package.
+
+STEP 2: The message contains a clear ACCEPTANCE PHRASE "let's finalize the trade and move forward", which implies that Camper_A commits to the deal.
+
+STEP 3: There is no new condition attached to this acceptance. The language used by Camper_A reinforces the agreement reached earlier, rather than introducing new terms.
+
+STEP 4: Since the message contains an acceptance phrase and no new condition, classify as an acceptance.
+
+LABEL: agree
+
+[AGREE    ] Camper_B: I'm glad we were able to come to an agreement. It's settled then - we've got our packages, and we can all move forward with what we need to stay safe and comfortable in the wilderness. Thank you for being practical and understanding.
+  reasoning: Based on the steps:
+
+STEP 1: The exact terms/numbers (if any) that were on the table before this new message are:
+- Camper_A and Camper_B have agreed on the distribution of the Water and Firewood packages, leaving only the final confirmation of the trade to be finalized.
+- The terms are as discussed in the previous message, with Camper_A and Camper_B trading packages to meet their needs.
+
+STEP 2: The message contains a clear ACCEPTANCE PHRASE "It's settled then" and "thank you for being practical and understanding", which implies that Camper_B commits to the deal.
+
+STEP 3: There is no new condition attached to this acceptance. The language used by Camper_B reiterates acceptance of the agreed-upon terms.
+
+STEP 4: Since the message contains an acceptance phrase and no new condition, classify as an acceptance.
+
+LABEL: agree
+
+[AGREE    ] Camper_A: Likewise, it's not always easy to come to terms, but we managed to find a balance that works for everyone. I'm confident that we'll all make it through this dry spell in one piece.
+  reasoning: Based on the steps:
+
+STEP 1: The exact terms/numbers (if any) that were on the table before this new message are:
+- Camper_A and Camper_B have agreed on the distribution of the Water and Firewood packages, with both parties having accepted and confirmed their shares.
+- The final agreement has been acknowledged by both parties, and there are no changes or new terms being proposed.
+
+STEP 2: The message contains a clear ACCEPTANCE PHRASE "Likewise", which implies that Camper_A commits to the deal.
+
+STEP 3: There is no new condition attached to this acceptance. The language used by Camper_A is a reiteration of acceptance and agreement, rather than a proposal of new terms.
+
+STEP 4: Since the message contains an acceptance phrase and no new condition, classify as an acceptance.
+
+LABEL: agree
+
+
+=== Turn-label summary ===
+Total turns: 9
+agree: 7
+disagree: 1
+stall: 0
+escalate: 0
+unclear: 1
+
+=== ARBITRATION COMPARISON (same transcript, 4 mechanisms) ===
+[NONE]   N/A (no arbitration)
+Baseline condition -- no review performed. Deal stands exactly as negotiated.
+
+[VOTING] APPROVED
+Camper_A vote: YES
+Camper_B vote: YES
+VERDICT: APPROVED
+
+[STRUCTURED] APPROVED
+Camper_A argument: The final deal is fair to me because I get the top priority of Water package #1, which is essential for us due to the dry conditions. I also have one Food package, which, although less than initially desired, is still sufficient given the abundance of dry wood for scavenging. The tradeoff, while not ideal, balances my needs with the reality of the situation.
+Camper_B argument: I'm fairly satisfied with the final deal because I obtained both Water #2 and two Firewood packages, which aligns with my priorities. Although I had to settle for only one Food package, it's a manageable compromise given the abundance of food sources in the area. The deal meets my needs, allowing me to maintain a sufficient level of comfort and safety.
+Camper_A final vote: YES
+Camper_B final vote: YES
+VERDICT: APPROVED
+
+[JUDGE]  REJECTED
+STEP 1 -- EXTRACT:
+  Food:     Camper_A = 1, Camper_B = 1
+  Water:    Camper_A = 1, Camper_B = 1
+  Firewood: Camper_A = 1, Camper_B = 1
+
+ Wait, this doesn't seem right. There are no clear mentions of them splitting the third Firewood package, but it seems they both ended up with one each in the discussion. However, for the sake of proceeding, let's assume they actually split package #3 in the end.
+
+STEP 2 -- SUM:
+  Food:     1 + 1 = 2
+  Water:    1 + 1 = 2
+  Firewood: 1 + 1 = 2
+ STEP 3 -- CHECK:
+  Food:     No, the sum does not equal 3 (NO). And yes, both numbers are whole numbers (YES).
+  Water:    No, the sum does not equal 3 (NO). And yes, both numbers are whole numbers (YES).
+  Firewood: No, the sum does not equal 3 (NO). And yes, both numbers are whole numbers (YES).
+
+ STEP 4 -- VERDICT:
+ VERDICT: REJECTED
+ REASON: The items did not total exactly 3 (as stated in the task), thus failing the condition.
+ IF REJECTED, SUGGESTED FIX: 
+ The suggested fix is for each person to keep one package of their chosen items, thus splitting them fairly by dividing one package between them, or for one of the parties to reconsider having two items while the other has none, which would also fulfill the instruction.
